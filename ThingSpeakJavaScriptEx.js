@@ -6,7 +6,6 @@ var url =  'https://api.thingspeak.com/update'
 request.post({
 	url:url,
 	form: {
-		//api_key:"NQR6662A22JQ7Q1G", // account key
 		field1:21
 	},
 	headers: {
